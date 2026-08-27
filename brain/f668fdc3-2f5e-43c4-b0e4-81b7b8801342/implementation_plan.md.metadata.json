@@ -1,5 +1,5 @@
 {
-  "summary": "Comprehensive implementation plan for CodeDuel: A production-oriented real-time 1v1 competitive programming platform with Spring Boot backend, Redis matchmaking & state engine, isolated Judge sandbox, 1,000 curated DSA question bank, React + Tailwind + Monaco Editor frontend, Elo rating system, and post-match efficiency analytics.",
+  "summary": "Comprehensive implementation plan for CodeCombat: A production-oriented real-time 1v1 competitive programming platform with Spring Boot backend, Redis matchmaking & state engine, isolated Judge sandbox, 1,000 curated DSA question bank, React + Tailwind + Monaco Editor frontend, Elo rating system, and post-match efficiency analytics.",
   "updatedAt": "2026-08-23T20:05:58.115165900Z",
   "requestFeedback": true,
   "userFacing": true

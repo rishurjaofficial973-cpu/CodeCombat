@@ -1,6 +1,6 @@
-# CodeDuel — Full-Stack Real-Time 1v1 Competitive Programming Platform
+# CodeCombat — Full-Stack Real-Time 1v1 Competitive Programming Platform
 
-CodeDuel has been built and verified as a production-grade competitive coding platform inspired by modern Versus coding experiences.
+CodeCombat has been built and verified as a production-grade competitive coding platform inspired by modern Versus coding experiences.
 
 ---
 
@@ -53,9 +53,9 @@ CodeDuel has been built and verified as a production-grade competitive coding pl
 [INFO] -------------------------------------------------------
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
-[INFO] Running com.codeduel.ComplexityEstimatorTest: Tests run: 2, Failures: 0, Errors: 0
-[INFO] Running com.codeduel.EfficiencyEngineTest: Tests run: 3, Failures: 0, Errors: 0
-[INFO] Running com.codeduel.EloRatingServiceTest: Tests run: 4, Failures: 0, Errors: 0
+[INFO] Running com.codecombat.ComplexityEstimatorTest: Tests run: 2, Failures: 0, Errors: 0
+[INFO] Running com.codecombat.EfficiencyEngineTest: Tests run: 3, Failures: 0, Errors: 0
+[INFO] Running com.codecombat.EloRatingServiceTest: Tests run: 4, Failures: 0, Errors: 0
 [INFO] Results: Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 ```
@@ -74,7 +74,7 @@ dist/assets/index-g63gCGYV.js   452.58 kB │ gzip: 131.86 kB
 ## Project Structure Overview
 
 ```text
-codeduel/
+codecombat/
 ├── docker-compose.yml
 ├── .env.example
 ├── README.md
@@ -82,7 +82,7 @@ codeduel/
 │   ├── pom.xml
 │   ├── Dockerfile
 │   └── src/
-│       ├── main/java/com/codeduel/
+│       ├── main/java/com/codecombat/
 │       │   ├── config/ (Security, JWT, WebSocket, Redis, CORS, OpenAPI)
 │       │   ├── model/ (User, Problem, Match, MatchPlayer, Submission, ...)
 │       │   ├── repository/ (JPA Repositories with custom queries)
@@ -92,7 +92,7 @@ codeduel/
 │       │   ├── websocket/ (WebSocketDispatcher, Controller, Events)
 │       │   ├── controller/ (REST APIs for all modules)
 │       │   └── seed/ (ProblemSeeder for 1,000 DSA problems)
-│       └── test/java/com/codeduel/ (Elo, Scoring, Complexity tests)
+│       └── test/java/com/codecombat/ (Elo, Scoring, Complexity tests)
 └── frontend/
     ├── package.json
     ├── vite.config.js

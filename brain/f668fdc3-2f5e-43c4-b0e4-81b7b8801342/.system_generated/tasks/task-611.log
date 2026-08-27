@@ -1,6 +1,0 @@
-Successfully scheduled one-shot timer.
-Expected to fire at: 2026-08-24T02:42:38+05:30
-Prompt: Check test run task-609
-Early Termination: f668fdc3-2f5e-43c4-b0e4-81b7b8801342/task-609
-
-[2026-08-24T02:42:33+05:30] Timer cancelled: early-termination condition (f668fdc3-2f5e-43c4-b0e4-81b7b8801342/task-609) met by a message from f668fdc3-2f5e-43c4-b0e4-81b7b8801342/task-609.

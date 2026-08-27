@@ -1,6 +1,6 @@
-# Implementation Plan - CodeDuel: Real-Time 1v1 Competitive Programming Platform
+# Implementation Plan - CodeCombat: Real-Time 1v1 Competitive Programming Platform
 
-CodeDuel is a full-stack, real-time 1v1 competitive coding platform inspired by modern competitive versus experiences. Two players face off on identical coding problems under a server-authoritative timer, submit code evaluated by an isolated judging service, and are ranked based on **Correctness → Execution Efficiency (70%) + Memory (30%) → Submission Speed**, driving standard Elo rating updates, leaderboards, and post-match deep analytics.
+CodeCombat is a full-stack, real-time 1v1 competitive coding platform inspired by modern competitive versus experiences. Two players face off on identical coding problems under a server-authoritative timer, submit code evaluated by an isolated judging service, and are ranked based on **Correctness → Execution Efficiency (70%) + Memory (30%) → Submission Speed**, driving standard Elo rating updates, leaderboards, and post-match deep analytics.
 
 ---
 
@@ -76,12 +76,12 @@ Create the monorepo root structure containing:
 ### 2. Backend Implementation (Spring Boot)
 
 #### Config & Security
-- `com.codeduel.config.SecurityConfig`: Spring Security 6 filter chain, stateless JWT auth, BCrypt password encoder, CORS.
-- `com.codeduel.config.JwtTokenProvider` & `JwtAuthenticationFilter`: Token issue, verification, claims extraction.
-- `com.codeduel.config.WebSocketConfig`: STOMP over SockJS endpoint (`/ws`), message broker (`/topic`, `/queue`), user destination prefix (`/user`).
-- `com.codeduel.config.RedisConfig`: Connection factory, `RedisTemplate`, `StringRedisTemplate`, Pub/Sub listeners.
+- `com.codecombat.config.SecurityConfig`: Spring Security 6 filter chain, stateless JWT auth, BCrypt password encoder, CORS.
+- `com.codecombat.config.JwtTokenProvider` & `JwtAuthenticationFilter`: Token issue, verification, claims extraction.
+- `com.codecombat.config.WebSocketConfig`: STOMP over SockJS endpoint (`/ws`), message broker (`/topic`, `/queue`), user destination prefix (`/user`).
+- `com.codecombat.config.RedisConfig`: Connection factory, `RedisTemplate`, `StringRedisTemplate`, Pub/Sub listeners.
 
-#### Models & Entities (`com.codeduel.model`)
+#### Models & Entities (`com.codecombat.model`)
 - `User`: ID, username, email, passwordHash, role (`USER`, `ADMIN`), rating (default 1200), wins, losses, draws, matchesPlayed, winStreak, bestWinStreak, globalRank, timestamps.
 - `Problem`: ID (`CD-0001` to `CD-1000`), title, slug, difficulty (`EASY`, `MEDIUM`, `HARD`), topics (JSON/List), patterns, description, constraints, examples (JSON), inputFormat, outputFormat, timeLimitMs, memoryLimitMb, expectedTimeComplexity, expectedSpaceComplexity, source, externalUrl, starterCode (JSON map by language), isActive.
 - `TestCase`: ID, problem, inputData, expectedOutput, isHidden, explanation, orderIndex.
@@ -94,7 +94,7 @@ Create the monorepo root structure containing:
 - `Notification`: ID, user, title, message, type, isRead, createdAt.
 
 #### Problem Bank (1,000 Curated Problems & Seeder)
-- `com.codeduel.seed.ProblemSeeder`: Automatically parses and seeds 1,000 distinct, high-quality DSA questions with full metadata, starter code for 4 languages, sample + hidden test cases, topic/pattern categorization across:
+- `com.codecombat.seed.ProblemSeeder`: Automatically parses and seeds 1,000 distinct, high-quality DSA questions with full metadata, starter code for 4 languages, sample + hidden test cases, topic/pattern categorization across:
   - Arrays & Hashing (120)
   - Two Pointers & Sliding Window (80)
   - Binary Search (70)
@@ -111,9 +111,9 @@ Create the monorepo root structure containing:
   - Bit Manipulation (40)
   - Trie (20)
   - Advanced DS / Algorithms (50)
-- `com.codeduel.service.ProblemProvider`: Pluggable abstraction (`LocalProblemProvider` and `ExternalProblemProvider`).
+- `com.codecombat.service.ProblemProvider`: Pluggable abstraction (`LocalProblemProvider` and `ExternalProblemProvider`).
 
-#### Matchmaking Engine (`com.codeduel.service.MatchmakingService`)
+#### Matchmaking Engine (`com.codecombat.service.MatchmakingService`)
 - Redis Sorted Set / Queue with expanding rating search:
   - 0-10 sec: $\pm 50$ rating
   - 10-20 sec: $\pm 100$ rating
@@ -122,7 +122,7 @@ Create the monorepo root structure containing:
 - Deduplication, self-match prevention, stale ticket cleanup, cancellation support.
 - Problem Selection: Automatically picks appropriate difficulty based on players' average rating ($\le 1200$: Easy, $1200-1600$: Easy/Medium, $1600-2000$: Medium, $2000+$: Medium/Hard) filtered by unplayed problems via `UserProblemHistory`.
 
-#### Match Lifecycle & Server Authoritative Timer (`com.codeduel.service.MatchService`)
+#### Match Lifecycle & Server Authoritative Timer (`com.codecombat.service.MatchService`)
 - State machine: `MATCHED` $\to$ `COUNTDOWN` (3s) $\to$ `ACTIVE` (15m) $\to$ `JUDGING` $\to$ `COMPLETED`.
 - Server timestamp source-of-truth (`startTime`, `endTime`, `remainingSeconds`).
 - Reconnection / Disconnection grace period (30 seconds) handling without immediate forfeiture.
@@ -132,7 +132,7 @@ Create the monorepo root structure containing:
   3. Classic / Sudden Death: First accepted solution with efficiency tie-breaker
   4. Server-side timestamp verification
 
-#### Secure Judging Engine & Execution Sandbox (`com.codeduel.judge.*`)
+#### Secure Judging Engine & Execution Sandbox (`com.codecombat.judge.*`)
 - `ExecutionSandbox`: Isolated subprocess runner with CPU, execution timeout (1-2s), memory caps, working directory sandboxing, and output truncation.
 - Supported languages: Java, Python 3, C++, JavaScript (Node.js).
 - `EfficiencyEngine`: Normalizes runtime against expected problem complexity and test execution benchmarks on a 0-100 curve with jitter tolerance ($102\text{ms}$ vs $105\text{ms}$ yields no unfair penalty).
