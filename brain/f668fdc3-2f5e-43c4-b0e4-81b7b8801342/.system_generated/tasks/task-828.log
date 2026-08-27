@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-08-24T11:01:38+05:30
+Prompt: Check task-826 full test suite
+Early Termination: f668fdc3-2f5e-43c4-b0e4-81b7b8801342/task-826
+
+[2026-08-24T11:01:38+05:30] Timer fired.

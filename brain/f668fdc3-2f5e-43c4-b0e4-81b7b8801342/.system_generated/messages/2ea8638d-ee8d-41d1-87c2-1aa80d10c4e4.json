@@ -1,0 +1,1 @@
+{"id":"2ea8638d-ee8d-41d1-87c2-1aa80d10c4e4","recipient":"f668fdc3-2f5e-43c4-b0e4-81b7b8801342","sender":"f668fdc3-2f5e-43c4-b0e4-81b7b8801342/task-333","priority":"MESSAGE_PRIORITY_HIGH","timestamp":"2026-08-23T20:17:40.605893700Z","renderDetails":{"messageTitle":"Wait for frontend build: Timer has expired"},"content":"Check npm install and build status"}

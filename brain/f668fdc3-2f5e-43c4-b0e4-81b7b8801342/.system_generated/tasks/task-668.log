@@ -1,0 +1,97 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.codeduel:codeduel-backend >--------------------
+[INFO] Building codeduel-backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ codeduel-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ codeduel-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 99 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ codeduel-backend ---
+[INFO] skip non existing resourceDirectory C:\Users\rajan\.gemini\antigravity\scratch\codeduel\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ codeduel-backend ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 5 source files with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ codeduel-backend ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.codeduel.All1000ProblemsVerificationTest
+02:56:54.315 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.codeduel.All1000ProblemsVerificationTest]: All1000ProblemsVerificationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:56:54.500 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.codeduel.CodeDuelApplication for test class com.codeduel.All1000ProblemsVerificationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-08-24T02:56:55.079+05:30  INFO 4132 --- [codeduel-backend] [           main] c.c.All1000ProblemsVerificationTest      : Starting All1000ProblemsVerificationTest using Java 17.0.19 with PID 4132 (started by rajan in C:\Users\rajan\.gemini\antigravity\scratch\codeduel\backend)
+2026-08-24T02:56:55.080+05:30  INFO 4132 --- [codeduel-backend] [           main] c.c.All1000ProblemsVerificationTest      : The following 1 profile is active: "dev"
+2026-08-24T02:56:56.714+05:30  INFO 4132 --- [codeduel-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-24T02:56:56.720+05:30  INFO 4132 --- [codeduel-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24T02:56:56.949+05:30  INFO 4132 --- [codeduel-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 217 ms. Found 11 JPA repository interfaces.
+2026-08-24T02:56:56.984+05:30  INFO 4132 --- [codeduel-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-24T02:56:56.986+05:30  INFO 4132 --- [codeduel-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-24T02:56:57.010+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.AchievementRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.012+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.MatchPlayerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.012+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.MatchRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.013+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.NotificationRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.013+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.ProblemRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.013+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.RatingHistoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.014+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.SubmissionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.014+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.TestCaseRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.014+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.UserAchievementRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.015+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.UserProblemHistoryRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.016+05:30  INFO 4132 --- [codeduel-backend] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codeduel.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-08-24T02:56:57.016+05:30  INFO 4132 --- [codeduel-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2026-08-24T02:56:57.758+05:30  INFO 4132 --- [codeduel-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-08-24T02:56:58.014+05:30  INFO 4132 --- [codeduel-backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-08-24T02:56:58.076+05:30  INFO 4132 --- [codeduel-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-08-24T02:56:58.418+05:30  INFO 4132 --- [codeduel-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24T02:56:58.456+05:30  INFO 4132 --- [codeduel-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-24T02:56:58.633+05:30  INFO 4132 --- [codeduel-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:codedueldb user=SA
+2026-08-24T02:56:58.635+05:30  INFO 4132 --- [codeduel-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-24T02:56:58.660+05:30  WARN 4132 --- [codeduel-backend] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-08-24T02:57:00.093+05:30  INFO 4132 --- [codeduel-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24T02:57:00.207+05:30  INFO 4132 --- [codeduel-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24T02:57:00.557+05:30  INFO 4132 --- [codeduel-backend] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24T02:57:02.672+05:30  WARN 4132 --- [codeduel-backend] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-24T02:57:03.183+05:30  INFO 4132 --- [codeduel-backend] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5bc369e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12d26d3a, org.springframework.security.web.context.SecurityContextHolderFilter@9fb4031, org.springframework.security.web.header.HeaderWriterFilter@52214284, org.springframework.web.filter.CorsFilter@13a4e21, org.springframework.security.web.authentication.logout.LogoutFilter@59919f37, com.codeduel.config.JwtAuthenticationFilter@4a244aa3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39b88618, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4460c723, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@451431d2, org.springframework.security.web.session.SessionManagementFilter@7493d2f0, org.springframework.security.web.access.ExceptionTranslationFilter@1df2d986, org.springframework.security.web.access.intercept.AuthorizationFilter@50233f7d]
+2026-08-24T02:57:03.914+05:30  INFO 4132 --- [codeduel-backend] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:codedueldb'
+2026-08-24T02:57:03.988+05:30  INFO 4132 --- [codeduel-backend] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2026-08-24T02:57:03.990+05:30  INFO 4132 --- [codeduel-backend] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@f6f5188]]
+2026-08-24T02:57:03.991+05:30  INFO 4132 --- [codeduel-backend] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2026-08-24T02:57:04.004+05:30  INFO 4132 --- [codeduel-backend] [           main] c.c.All1000ProblemsVerificationTest      : Started All1000ProblemsVerificationTest in 9.327 seconds (process running for 10.424)
+2026-08-24T02:57:04.093+05:30  INFO 4132 --- [codeduel-backend] [           main] com.codeduel.seed.ProblemSeeder          : Seeding initial users...
+2026-08-24T02:57:04.474+05:30  INFO 4132 --- [codeduel-backend] [           main] com.codeduel.seed.ProblemSeeder          : Initial users seeded successfully.
+2026-08-24T02:57:04.480+05:30  INFO 4132 --- [codeduel-backend] [           main] com.codeduel.seed.ProblemSeeder          : Seeding initial achievements...
+2026-08-24T02:57:04.499+05:30  INFO 4132 --- [codeduel-backend] [           main] com.codeduel.seed.ProblemSeeder          : Achievements seeded successfully.
+2026-08-24T02:57:04.503+05:30  INFO 4132 --- [codeduel-backend] [           main] com.codeduel.seed.ProblemSeeder          : Purging and building 1,000 fully-verified LeetCode DSA questions with matching testcases and signatures...
+2026-08-24T02:57:06.116+05:30  INFO 4132 --- [codeduel-backend] [           main] com.codeduel.seed.ProblemSeeder          : Successfully verified and seeded 1000 total DSA problems into CodeDuel bank!
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-08-24T02:57:06.901+05:30  INFO 4132 --- [codeduel-backend] [           main] com.codeduel.seed.ProblemSeeder          : All 1,000 problems are already verified and synced with authentic signatures and test cases.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.77 s -- in com.codeduel.All1000ProblemsVerificationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.385 s
+[INFO] Finished at: 2026-08-24T02:57:08+05:30
+[INFO] ------------------------------------------------------------------------

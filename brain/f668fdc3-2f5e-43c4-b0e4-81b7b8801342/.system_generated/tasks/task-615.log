@@ -1,0 +1,13 @@
+
+> codeduel-frontend@1.0.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1713 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.15 kB │ gzip:   0.65 kB
+dist/assets/index-qSoGBrGX.css   39.43 kB │ gzip:   6.99 kB
+dist/assets/index-C6bN0Xfp.js   460.30 kB │ gzip: 133.21 kB
+✓ built in 3.79s

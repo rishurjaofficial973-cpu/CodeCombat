@@ -1,0 +1,219 @@
+HALF-YEARLY EXAMINATION 2026–27
+CLASS XII — MATHEMATICS (SET B)
+MARKING SCHEME & STEP-BY-STEP SOLUTIONS
+Time Allowed: 3 Hours                                          Maximum Marks: 80
+--------------------------------------------------------------------------------
+GENERAL GUIDELINES FOR EVALUATORS:
+1. Marks should be awarded for every correct step as indicated in the marking scheme.
+2. Full credit should be given for alternative correct methods.
+3. For Section A MCQs, 1 mark is awarded for the correct option along with reasoning.
+--------------------------------------------------------------------------------
+
+SECTION A (20 Marks — 1 Mark Each)
+
+Q1. (c) An equivalence relation                                              [1 mark]
+    Reason: Reflexive: (1,1),(2,2),(3,3) in R. Symmetric: (1,3) & (3,1) in R. Transitive: all chains verified.
+
+Q2. (b) 6                                                                    [1 mark]
+    Reason: Number of one-one functions = 3! = 6.
+
+Q3. (b) 3π/4                                                                 [1 mark]
+    Reason: cos(3pi/4) = -1/sqrt(2) and 3pi/4 in [0, pi].
+
+Q4. (b) (−π/2, π/2)                                                          [1 mark]
+    Reason: Principal value branch of tan⁻¹x is (-pi/2, pi/2).
+
+Q5. (a) Aᵀ + Bᵀ                                                              [1 mark]
+    Reason: Transpose of sum property.
+
+Q6. (a) 1                                                                    [1 mark]
+    Reason: a_12 = -a_21 ==> a = -2; a_13 = -a_31 ==> -3 = -b ==> b = 3. a + b = 1.
+
+Q7. (b) aᵢⱼ = 0 for i ≠ j                                                    [1 mark]
+    Reason: Definition of diagonal matrix.
+
+Q8. (b) −54                                                                  [1 mark]
+    Reason: |3A| = 3^3 |A| = 27 * (-2) = -54.
+
+Q9. (b) 15/2 sq units                                                        [1 mark]
+    Reason: Area = (1/2)|1(0 - 3) + 6(3 - 0) + 4(0 - 0)| = (1/2)|-3 + 18| = 15/2.
+
+Q10. (b) 3cos(3x)                                                            [1 mark]
+    Reason: Chain rule: d/dx(sin 3x) = 3 cos 3x.
+
+Q11. (c) Both continuous and differentiable everywhere on ℝ                  [1 mark]
+    Reason: Polynomial functions are continuous and differentiable on all of R.
+
+Q12. (a) 3/4                                                                 [1 mark]
+    Reason: At x = 2: k(2^2) = 3 ==> 4k = 3 ==> k = 3/4.
+
+Q13. (a) 4πr²                                                                [1 mark]
+    Reason: dV/dr = (4/3)*pi*(3r^2) = 4*pi*r^2.
+
+Q14. (b) (1, 3)                                                              [1 mark]
+    Reason: f'(x) = 3(x - 1)(x - 3) < 0 for x in (1, 3).
+
+Q15. (b) 24π cm²/cm                                                          [1 mark]
+    Reason: dS/dr = 8*pi*r = 8*pi*3 = 24*pi.
+
+Q16. (b) x = −1                                                              [1 mark]
+    Reason: f'(x) = 6(x - 2)(x + 1) = 0. f''(-1) = 12(-1) - 6 = -18 < 0 ==> local max at x = -1.
+
+Q17. (a) sin x + C                                                           [1 mark]
+    Reason: Standard formula.
+
+Q18. (a) sin⁻¹x + C                                                          [1 mark]
+    Reason: Standard formula.
+
+Q19. (a) Both A and R are true, and R is the correct explanation of A        [1 mark]
+    Reason: LHL != RHL at every integer, so the limit does not exist, causing step discontinuities.
+
+Q20. (a) Both A and R are true, and R is the correct explanation of A        [1 mark]
+    Reason: f'(x) = 1/x > 0 for all x > 0 implies strictly increasing.
+
+--------------------------------------------------------------------------------
+SECTION B (5 × 2 = 10 Marks)
+
+Q21. Check if R = {(1,1),(2,2),(3,3),(1,3),(3,1)} is an equivalence relation:
+- Reflexive: (1,1),(2,2),(3,3) in R ==> Reflexive.                          [1/2 mark]
+- Symmetric: (1,3) in R and (3,1) in R ==> Symmetric.                       [1/2 mark]
+- Transitive: (1,3) & (3,1) -> (1,1) in R; (3,1) & (1,3) -> (3,3) in R ==> Transitive. [1/2 mark]
+Conclusion: Since R is reflexive, symmetric and transitive, R is an equivalence relation. [1/2 mark]
+
+Q22. Find A + 2B:
+2B = [[2, 0], [-2, 4]]                                                       [1/2 mark]
+A + 2B = [[3+2, 1+0], [-1-2, 2+4]] = [[5, 1], [-3, 6]]                      [1.5 marks]
+Final Answer: [[5, 1], [-3, 6]]
+
+Q23. Differentiate y = cos(x²):
+dy/dx = -sin(x²) * d/dx(x²) = -2x sin(x²)                                    [2 marks]
+Final Answer: -2x sin(x²)
+
+Q24. Rate of increase of circle area:
+A = pi * r^2
+dA/dt = 2 * pi * r * (dr/dt)                                                 [1 mark]
+Given dr/dt = 3 cm/s and r = 10 cm:
+dA/dt = 2 * pi * 10 * 3 = 60*pi cm^2/s.                                      [1 mark]
+Final Answer: 60π cm²/s
+
+Q25. Evaluate ∫ e^(sin x) cos x dx:
+Let u = sin x ==> du = cos x dx                                              [1 mark]
+∫ e^(sin x) cos x dx = ∫ e^u du = e^u + C = e^(sin x) + C                    [1 mark]
+Final Answer: e^(sin x) + C
+
+--------------------------------------------------------------------------------
+SECTION C (6 × 3 = 18 Marks)
+
+Q26. Principal values:
+(i) cos⁻¹(cos(5π/4)) = cos⁻¹(cos(2π - 3π/4)) = cos⁻¹(cos(3π/4)) = 3π/4      [1 mark]
+(ii) sin⁻¹(sin(−π/3)) = −π/3 (since −π/3 in [−π/2, π/2])                    [1 mark]
+(iii) tan⁻¹(tan(5π/6)) = tan⁻¹(tan(π - π/6)) = tan⁻¹(-tan(π/6)) = -π/6       [1 mark]
+
+Q27. Domains & Principal value:
+(i) sin⁻¹(3x - 1): -1 <= 3x - 1 <= 1 ==> 0 <= 3x <= 2 ==> Domain: [0, 2/3]   [1 mark]
+(ii) cos⁻¹((x - 1)/2): -1 <= (x - 1)/2 <= 1 ==> -2 <= x - 1 <= 2 ==> Domain: [-1, 3] [1 mark]
+(iii) tan⁻¹(-1) = -π/4                                                       [1 mark]
+
+Q28. Determinant evaluation:
+|A| = 2(2*2 - (-1)*3) - (-1)(1*2 - 0) + 3(1*3 - 0)                           [1 mark]
+    = 2(4 + 3) + 1(2) + 3(3)                                                 [1 mark]
+    = 2(7) + 2 + 9 = 14 + 2 + 9 = 25                                         [1 mark]
+Final Answer: 25
+
+Q29. y = x^(sin x) (x > 0):
+ln y = sin x * ln x                                                          [1/2 mark]
+(1/y) dy/dx = cos x * ln x + (sin x)/x                                       [1.5 marks]
+dy/dx = x^(sin x) [cos x * ln x + (sin x)/x]                                 [1 mark]
+Final Answer: x^(sin x) [cos x * ln x + (sin x)/x]
+
+Q30. Intervals of increase/decrease for f(x) = x³ − 6x² + 9x + 15:
+f'(x) = 3x² − 12x + 9 = 3(x² − 4x + 3) = 3(x − 1)(x − 3)                     [1 mark]
+Critical points: x = 1, x = 3
+- In (-inf, 1): f'(x) > 0 ==> Strictly Increasing                            [1 mark]
+- In (1, 3): f'(x) < 0 ==> Strictly Decreasing                               [1/2 mark]
+- In (3, inf): f'(x) > 0 ==> Strictly Increasing                             [1/2 mark]
+Final Answer: (i) Strictly increasing on (-∞, 1) ∪ (3, ∞); (ii) Strictly decreasing on (1, 3)
+
+Q31. Evaluate ∫ x cos x dx:
+Using integration by parts: u = x ==> u' = 1; v' = cos x ==> v = sin x       [1 mark]
+∫ x cos x dx = x sin x - ∫ 1 * sin x dx                                      [1 mark]
+             = x sin x - (-cos x) + C = x sin x + cos x + C                  [1 mark]
+Final Answer: x sin x + cos x + C
+
+--------------------------------------------------------------------------------
+SECTION D (4 × 5 = 20 Marks)
+
+Q32. Express A = [[3, -2, 5], [4, 1, -3], [-1, 2, 1]] as P + Q:
+A^T = [[3, 4, -1], [-2, 1, 2], [5, -3, 1]]                                   [1 mark]
+P = (A + A^T)/2 = [[3, 1, 2], [1, 1, -1/2], [2, -1/2, 1]]                    [1.5 marks]
+Q = (A - A^T)/2 = [[0, -3, 3], [3, 0, -5/2], [-3, 5/2, 0]]                  [1.5 marks]
+Verification: P^T = P, Q^T = -Q, and P + Q = A.                              [1 mark]
+
+Q33. Solve system using matrix method:
+A = [[1,-1,2],[3,4,-5],[2,-1,3]], X = [[x],[y],[z]], B = [[7],[-5],[12]]
+|A| = 1(12 - 5) - (-1)(9 - (-10)) + 2(-3 - 8) = 7 + 19 - 22 = 4 != 0        [1 mark]
+Cofactors:
+C_11 = 7, C_12 = -19, C_13 = -11
+C_21 = 1, C_22 = -1, C_23 = -1
+C_31 = -3, C_32 = 11, C_33 = 7                                               [1.5 marks]
+adj A = [[7, 1, -3], [-19, -1, 11], [-11, -1, 7]]                            [1/2 mark]
+A^(-1) = (1/4) adj A                                                         [1/2 mark]
+X = A^(-1) B:
+x = (1/4)(7*7 + 1*(-5) + (-3)*12) = (1/4)(49 - 5 - 36) = 8/4 = 2
+y = (1/4)(-19*7 + (-1)*(-5) + 11*12) = (1/4)(-133 + 5 + 132) = 4/4 = 1
+z = (1/4)(-11*7 + (-1)*(-5) + 7*12) = (1/4)(-77 + 5 + 84) = 12/4 = 3       [1.5 marks]
+Final Answer: x = 2, y = 1, z = 3
+
+Q34. y = (tan⁻¹x)², show (1 + x²)² y₂ + 2x(1 + x²) y₁ = 2:
+y₁ = 2 tan⁻¹x * (1/(1 + x²))                                                 [1 mark]
+(1 + x²) y₁ = 2 tan⁻¹x                                                       [1 mark]
+Differentiating with respect to x:
+(1 + x²) y₂ + 2x y₁ = 2 / (1 + x²)                                           [1.5 marks]
+Multiplying throughout by (1 + x²):
+(1 + x²)² y₂ + 2x(1 + x²) y₁ = 2. Hence Proved.                              [1.5 marks]
+
+Q35. Evaluate ∫ (x² + x + 1)/((x + 1)(x + 2)) dx:
+(x + 1)(x + 2) = x² + 3x + 2
+(x² + x + 1)/(x² + 3x + 2) = 1 + (-2x - 1)/(x² + 3x + 2)                     [1 mark]
+Partial fractions: (-2x - 1)/((x + 1)(x + 2)) = A/(x + 1) + B/(x + 2)        [1/2 mark]
+-2x - 1 = A(x + 2) + B(x + 1)
+At x = -1: 1 = A(1) ==> A = 1
+At x = -2: 3 = B(-1) ==> B = -3                                              [1.5 marks]
+∫ [1 + 1/(x + 1) - 3/(x + 2)] dx = x + ln|x + 1| - 3 ln|x + 2| + C           [2 marks]
+Final Answer: x + ln|x + 1| - 3 ln|x + 2| + C
+
+--------------------------------------------------------------------------------
+SECTION E (3 × 4 = 12 Marks)
+
+Q36. Case Study 1 — Relations and Functions:
+(i) Reflexive & Transitive:
+- Reflexive: Every integer a divides itself ==> (a, a) in R for all a in A.   [1/2 mark]
+- Transitive: If a divides b and b divides c, then b = k_1 a and c = k_2 b ==> c = (k_1 k_2) a ==> a divides c. So (a, b) in R and (b, c) in R ==> (a, c) in R. [1.5 marks]
+
+(ii) Is R symmetric?
+No. For example, (1, 2) in R because 1 divides 2, but (2, 1) not in R because 2 does not divide 1. [1 mark]
+
+(iii) Is R an equivalence relation?
+No, because R is not symmetric.                                              [1 mark]
+
+Q37. Case Study 2 — Application of Derivatives:
+(i) MR(x) = dR/dx = 26x + 26                                                 [2 marks]
+
+(ii) Marginal revenue when x = 7:
+MR(7) = 26(7) + 26 = 182 + 26 = ₹ 208                                        [1 mark]
+
+(iii) Revenue increasing/decreasing:
+Since MR(7) = 208 > 0, the total revenue is increasing at x = 7 units.       [1 mark]
+
+Q38. Case Study 3 — Integrals:
+(i) Displacement s(t):
+s(t) = ∫ (6t² − 4t) dt = 2t³ − 2t² + C                                       [1 mark]
+Given s(0) = 0 ==> C = 0. Thus, s(t) = 2t³ − 2t².                           [1 mark]
+
+(ii) Displacement at t = 3 s:
+s(3) = 2(3³) − 2(3²) = 2(27) − 2(9) = 54 − 18 = 36 m.                       [1 mark]
+
+(iii) Momentarily at rest (t > 0):
+v(t) = 0 ==> 6t² − 4t = 0 ==> 2t(3t − 2) = 0 ==> t = 2/3 s.                 [1 mark]
+
+— End of Marking Scheme —

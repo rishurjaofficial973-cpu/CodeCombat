@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed document generator that properly resets line spacing on image paragraphs so pictures render with full height and perfect alignment in MS Word.",
+  "updatedAt": "2026-08-24T16:02:43.233820Z"
+}

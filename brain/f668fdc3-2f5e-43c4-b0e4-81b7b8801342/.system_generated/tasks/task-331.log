@@ -1,0 +1,30 @@
+
+added 226 packages, and audited 227 packages in 1m
+
+34 packages are looking for funding
+  run `npm fund` for details
+
+4 vulnerabilities (3 moderate, 1 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice
+npm notice New minor version of npm available! 11.3.0 -> 11.19.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.19.0
+npm notice To update run: npm install -g npm@11.19.0
+npm notice
+
+> codeduel-frontend@1.0.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1714 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.15 kB │ gzip:   0.65 kB
+dist/assets/index-BfeoKe4V.css   39.22 kB │ gzip:   6.98 kB
+dist/assets/index-g63gCGYV.js   452.58 kB │ gzip: 131.86 kB
+✓ built in 21.18s

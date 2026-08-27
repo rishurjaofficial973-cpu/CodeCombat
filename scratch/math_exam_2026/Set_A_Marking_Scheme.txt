@@ -1,0 +1,231 @@
+HALF-YEARLY EXAMINATION 2026–27
+CLASS XII — MATHEMATICS (SET A)
+MARKING SCHEME & STEP-BY-STEP SOLUTIONS
+Time Allowed: 3 Hours                                          Maximum Marks: 80
+--------------------------------------------------------------------------------
+GENERAL GUIDELINES FOR EVALUATORS:
+1. Marks should be awarded for every correct step as indicated in the marking scheme.
+2. Full credit should be given for alternative correct methods.
+3. For Section A MCQs, 1 mark is awarded for the correct option along with reasoning.
+--------------------------------------------------------------------------------
+
+SECTION A (20 Marks — 1 Mark Each)
+
+Q1. (b) Reflexive and transitive only                                        [1 mark]
+    Reason: (1,1),(2,2),(3,3) in R (reflexive). (1,2) in R but (2,1) not in R (not symmetric). No transitive violation exists.
+
+Q2. (d) Neither one-one nor onto                                            [1 mark]
+    Reason: f(1)=f(-1)=1 (not 1-1). Range = [0, inf) != R (codomain) (not onto).
+
+Q3. (b) −π/6                                                                 [1 mark]
+    Reason: sin(-pi/6) = -1/2 and -pi/6 in [-pi/2, pi/2].
+
+Q4. (a) [0, 1]                                                               [1 mark]
+    Reason: -1 <= 2x - 1 <= 1 ==> 0 <= 2x <= 2 ==> 0 <= x <= 1.
+
+Q5. (b) Symmetric                                                           [1 mark]
+    Reason: (A + A^T)^T = A^T + A = A + A^T.
+
+Q6. (a) 3                                                                    [1 mark]
+    Reason: a_23 = -a_32 ==> x = -(-3) = 3.
+
+Q7. (b) Skew-symmetric                                                      [1 mark]
+    Reason: (A - A^T)^T = A^T - A = -(A - A^T).
+
+Q8. (c) 135                                                                  [1 mark]
+    Reason: |3A| = 3^3 |A| = 27 * 5 = 135.
+
+Q9. (c) 16                                                                   [1 mark]
+    Reason: |adj A| = |A|^(n-1) = 4^(3-1) = 16.
+
+Q10. (b) Continuous everywhere but not differentiable at x = 0               [1 mark]
+    Reason: LHD at 0 is -1, RHD at 0 is +1.
+
+Q11. (b) 2e²ˣ                                                                [1 mark]
+    Reason: d/dx(e^(2x)) = 2e^(2x).
+
+Q12. (a) 9/5                                                                 [1 mark]
+    Reason: 5k + 1 = 3(5) - 5 = 10 ==> k = 9/5.
+
+Q13. (b) 10π cm²/cm                                                          [1 mark]
+    Reason: dA/dr = 2*pi*r = 10*pi at r = 5.
+
+Q14. (b) (2, ∞)                                                              [1 mark]
+    Reason: f'(x) = 2x - 4 > 0 ==> x > 2.
+
+Q15. (b) √2                                                                  [1 mark]
+    Reason: f'(x) = cos x - sin x = 0 ==> x = pi/4. f(pi/4) = 1/sqrt(2) + 1/sqrt(2) = sqrt(2). At endpoints: f(0)=1, f(pi/2)=1. Max value is sqrt(2).
+
+Q16. (d) ₹ 126                                                               [1 mark]
+    Reason: MR = dR/dx = 6x + 36. At x = 15: MR = 6(15) + 36 = 90 + 36 = 126.
+
+Q17. (a) tan x + C                                                           [1 mark]
+    Reason: Standard formula.
+
+Q18. (a) tan⁻¹x + C                                                          [1 mark]
+    Reason: Standard formula.
+
+Q19. (c) A is true, but R is false                                          [1 mark]
+    Reason: f(x) = |x - 2| is continuous everywhere, but not differentiable at the corner x = 2.
+
+Q20. (a) Both A and R are true, and R is the correct explanation of A        [1 mark]
+    Reason: f'(3) = -2(0) = 0 and f''(3) = -2 < 0 confirms local maximum at (3, 4).
+
+--------------------------------------------------------------------------------
+SECTION B (5 × 2 = 10 Marks)
+
+Q21. Check Reflexive, Symmetric, Transitive for R = {(1,1),(2,2),(3,3),(1,2),(2,3)}:
+- Reflexive: (1,1),(2,2),(3,3) in R ==> Reflexive.                          [1/2 mark]
+- Symmetric: (1,2) in R but (2,1) not in R ==> Not symmetric.               [1/2 mark]
+- Transitive: (1,2) in R and (2,3) in R but (1,3) not in R ==> Not transitive. [1 mark]
+Final Answer: R is reflexive, but neither symmetric nor transitive.
+
+Q22. 2A - 3B:
+2A = [[2, 4], [6, 8]]                                                        [1/2 mark]
+3B = [[6, 0], [3, 9]]                                                        [1/2 mark]
+2A - 3B = [[2-6, 4-0], [6-3, 8-9]] = [[-4, 4], [3, -1]]                     [1 mark]
+Final Answer: [[-4, 4], [3, -1]]
+
+Q23. Differentiate y = sin(x² + 1):
+dy/dx = cos(x² + 1) * d/dx(x² + 1)                                           [1 mark]
+      = 2x cos(x² + 1)                                                       [1 mark]
+Final Answer: 2x cos(x² + 1)
+
+Q24. Rate of increase of cube volume:
+Let x be edge length, V = x^3.
+dV/dt = 3x^2 * (dx/dt)                                                       [1 mark]
+Given dx/dt = 3 cm/s and x = 10 cm:
+dV/dt = 3(10)^2 * (3) = 3 * 100 * 3 = 900 cm^3/s.                           [1 mark]
+Final Answer: 900 cm³/s
+
+Q25. Evaluate ∫ x e^(x²) dx:
+Let u = x^2 ==> du = 2x dx ==> x dx = du/2                                  [1 mark]
+∫ x e^(x²) dx = (1/2) ∫ e^u du = (1/2) e^u + C = (1/2) e^(x²) + C            [1 mark]
+Final Answer: (1/2) e^(x²) + C
+
+--------------------------------------------------------------------------------
+SECTION C (6 × 3 = 18 Marks)
+
+Q26. Principal value evaluations:
+(i) sin⁻¹(sin(2π/3)) = sin⁻¹(sin(π - π/3)) = sin⁻¹(sin(π/3)) = π/3          [1 mark]
+(ii) cos⁻¹(cos(7π/6)) = cos⁻¹(cos(2π - 5π/6)) = cos⁻¹(cos(5π/6)) = 5π/6      [1 mark]
+(iii) tan⁻¹(tan(3π/4)) = tan⁻¹(tan(π - π/4)) = tan⁻¹(-tan(π/4)) = -π/4       [1 mark]
+
+Q27. tan⁻¹(1) + cos⁻¹(−1/2) + sin⁻¹(−1/2):
+tan⁻¹(1) = π/4                                                               [1 mark]
+cos⁻¹(−1/2) = π - π/3 = 2π/3                                                 [1/2 mark]
+sin⁻¹(−1/2) = −π/6                                                           [1/2 mark]
+Sum = π/4 + 2π/3 − π/6 = (3π + 8π − 2π)/12 = 9π/12 = 3π/4                  [1 mark]
+Final Answer: 3π/4
+
+Q28. Determinant by minors/cofactors along R1:
+|A| = 1 * C_11 + 2 * C_12 + 3 * C_13                                         [1 mark]
+C_11 = +(1*0 - 4*6) = -24
+C_12 = -(0*0 - 4*5) = +20
+C_13 = +(0*6 - 1*5) = -5                                                     [1 mark]
+|A| = 1(-24) + 2(20) + 3(-5) = -24 + 40 - 15 = 1                            [1 mark]
+Final Answer: 1
+
+Q29. y = xˣ (x > 0):
+ln y = x ln x                                                                [1/2 mark]
+(1/y) dy/dx = x * (1/x) + ln x * 1 = 1 + ln x                                [1.5 marks]
+dy/dx = y(1 + ln x) = xˣ(1 + ln x)                                           [1 mark]
+Final Answer: xˣ(1 + ln x)
+
+Q30. Intervals of increase/decrease for f(x) = 2x³ − 15x² + 36x + 1:
+f'(x) = 6x² − 30x + 36 = 6(x² − 5x + 6) = 6(x − 2)(x − 3)                   [1 mark]
+Setting f'(x) = 0 gives critical points x = 2, x = 3.
+- In (-inf, 2): f'(x) > 0 ==> Strictly Increasing                            [1 mark]
+- In (2, 3): f'(x) < 0 ==> Strictly Decreasing                               [1/2 mark]
+- In (3, inf): f'(x) > 0 ==> Strictly Increasing                             [1/2 mark]
+Final Answer: (i) Strictly increasing on (-∞, 2) ∪ (3, ∞); (ii) Strictly decreasing on (2, 3)
+
+Q31. Evaluate ∫ x sin x dx:
+Using integration by parts: ∫ u v' dx = u v - ∫ u' v dx
+Let u = x ==> u' = 1; v' = sin x ==> v = -cos x                              [1 mark]
+∫ x sin x dx = -x cos x - ∫ 1 * (-cos x) dx                                  [1 mark]
+             = -x cos x + ∫ cos x dx = -x cos x + sin x + C                  [1 mark]
+Final Answer: -x cos x + sin x + C
+
+--------------------------------------------------------------------------------
+SECTION D (4 × 5 = 20 Marks)
+
+Q32. Express A = [[1, 2, -3], [3, -1, 2], [-2, 1, 4]] as P + Q (Symmetric + Skew-symmetric):
+A^T = [[1, 3, -2], [2, -1, 1], [-3, 2, 4]]                                   [1 mark]
+P = (A + A^T)/2 = [[1, 5/2, -5/2], [5/2, -1, 3/2], [-5/2, 3/2, 4]]          [1.5 marks]
+Q = (A - A^T)/2 = [[0, -1/2, -1/2], [1/2, 0, 1/2], [1/2, -1/2, 0]]          [1.5 marks]
+Verification: P^T = P (symmetric), Q^T = -Q (skew-symmetric), and P + Q = A. [1 mark]
+
+Q33. Solve system using matrix method:
+AX = B where A = [[1,1,1],[0,1,3],[1,-2,1]], X = [[x],[y],[z]], B = [[6],[11],[0]]
+|A| = 1(1 - (-6)) - 1(0 - 3) + 1(0 - 1) = 7 + 3 - 1 = 9 != 0                 [1 mark]
+Cofactors of A:
+C_11 = 7, C_12 = 3, C_13 = -1
+C_21 = -3, C_22 = 0, C_23 = 3
+C_31 = 2, C_32 = -3, C_33 = 1                                                [1.5 marks]
+adj A = [[7, -3, 2], [3, 0, -3], [-1, 3, 1]]                                [1/2 mark]
+A^(-1) = (1/9) adj A                                                         [1/2 mark]
+X = A^(-1) B = (1/9) [[7,-3,2],[3,0,-3],[-1,3,1]] [[6],[11],[0]]
+  = (1/9) [[42 - 33 + 0], [18 + 0 + 0], [-6 + 33 + 0]]
+  = (1/9) [[9], [18], [27]] = [[1], [2], [3]]                                [1.5 marks]
+Final Answer: x = 1, y = 2, z = 3
+
+Q34. y = (sin⁻¹x)², prove (1 - x²) y₂ - x y₁ - 2 = 0:
+dy/dx = y₁ = 2 sin⁻¹x * (1/√(1 - x²))                                        [1 mark]
+√(1 - x²) * y₁ = 2 sin⁻¹x                                                    [1 mark]
+Differentiating both sides with respect to x:
+√(1 - x²) * y₂ + y₁ * (-2x / 2√(1 - x²)) = 2 / √(1 - x²)                     [1.5 marks]
+√(1 - x²) * y₂ - (x y₁)/√(1 - x²) = 2 / √(1 - x²)
+Multiplying by √(1 - x²):
+(1 - x²) y₂ - x y₁ = 2                                                       [1 mark]
+==> (1 - x²) y₂ - x y₁ - 2 = 0. Hence Proved.                               [1/2 mark]
+
+Q35. Evaluate ∫ (x² + 1)/(x² − 5x + 6) dx:
+By polynomial division:
+(x² + 1)/(x² − 5x + 6) = 1 + (5x − 5)/(x² − 5x + 6)                         [1 mark]
+Partial fractions: (5x - 5)/((x - 2)(x - 3)) = A/(x - 2) + B/(x - 3)         [1/2 mark]
+5x - 5 = A(x - 3) + B(x - 2)
+At x = 2: 5 = -A ==> A = -5
+At x = 3: 10 = B ==> B = 10                                                  [1.5 marks]
+∫ [1 - 5/(x - 2) + 10/(x - 3)] dx = x - 5 ln|x - 2| + 10 ln|x - 3| + C       [2 marks]
+Final Answer: x - 5 ln|x - 2| + 10 ln|x - 3| + C
+
+--------------------------------------------------------------------------------
+SECTION E (3 × 4 = 12 Marks)
+
+Q36. Case Study 1 — Relations and Functions:
+(i) Show R is an equivalence relation:
+- Reflexive: For all a in A, |a - a| = 0 (even) ==> (a, a) in R.             [1/2 mark]
+- Symmetric: (a, b) in R ==> |a - b| is even ==> |b - a| is even ==> (b, a) in R. [1/2 mark]
+- Transitive: (a, b) in R and (b, c) in R ==> a - b = 2k_1, b - c = 2k_2 ==> a - c = 2(k_1 + k_2) ==> |a - c| is even ==> (a, c) in R. [1 mark]
+Hence R is an equivalence relation.
+
+(ii) Equivalence class of 2:
+[2] = {b in A : |2 - b| is even} = {2, 4}.                                   [1 mark]
+
+(iii) Is (1, 5) in R?
+|1 - 5| = 4, which is an even integer. Yes, (1, 5) in R.                     [1 mark]
+
+Q37. Case Study 2 — Application of Derivatives:
+(i) MC(x) = dC/dx = 0.005(3x²) − 0.02(2x) + 30
+          = 0.015x² − 0.04x + 30                                             [2 marks]
+
+(ii) Marginal cost when x = 3:
+MC(3) = 0.015(3²) − 0.04(3) + 30 = 0.135 − 0.12 + 30 = ₹ 30.015             [1 mark]
+
+(iii) Cost increasing/decreasing at x = 3:
+Since MC(3) = 30.015 > 0, the cost function C(x) is increasing at x = 3.     [1 mark]
+
+Q38. Case Study 3 — Integrals:
+(i) Displacement s(t):
+s(t) = ∫ (3t² − 12t + 9) dt = t³ − 6t² + 9t + C                              [1 mark]
+Given s(0) = 0 ==> C = 0. Thus, s(t) = t³ − 6t² + 9t.                        [1 mark]
+
+(ii) Displacement at t = 2 s:
+s(2) = (2)³ − 6(2)² + 9(2) = 8 − 24 + 18 = 2 m.                             [1 mark]
+
+(iii) Momentarily at rest:
+v(t) = 0 ==> 3t² − 12t + 9 = 0 ==> 3(t − 1)(t − 3) = 0 ==> t = 1 s, t = 3 s. [1 mark]
+Both values lie in [0, 3].
+
+— End of Marking Scheme —
